@@ -1,6 +1,6 @@
 {
-  "name": "hatch-front",
-  "version": "0.0.0",
+  "name": "keller-test",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^17.0.1",
