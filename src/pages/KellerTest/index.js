@@ -1,4 +1,4 @@
-import Logo from '../../images/Logo1.svg'
+import Logo from '../../images/Logo12.svg'
 import { useNavigate } from 'react-router-dom'
 
 import Imagem3 from './images/Imagem3.png'
@@ -17,11 +17,34 @@ const KellerTest = () => {
     return (
         <>
             <div className="aboutMeTitle">
-                <img src={Logo} alt={"Teste de Keller"} />
+                <img src={Logo} alt={"Teste de Keller"} className="logo"/>
             </div>
-            <p style={{textAlign: "center"}}>
+            {/* <p style={{textAlign: "center"}}>
                 O Teste de Keller (<span className="kellerTest">T.K.</span>) trabalha com três elementos centrais: 
+            </p> */}
+            <p>
+                Se você deseja que o seu produto seja eficiente, agradável de usar e inclusivo, o <span className="kellerTest">T.K.</span> é a ferramenta que você precisa conhecer! Ele não requer conhecimentos de Design para ser utilizado e pode ser aplicado a uma ampla gama de produtos.
             </p>
+            <img src={Imagem7} alt="" />
+            <p>
+                Ao usarmos um produto com as mãos, nos atravessa um grande volume de pensamentos, sentimentos, lembranças e processos cognitivos muito internalizados, o que dificulta tanto a comunicação quanto a organização desses componentes da percepção. A descrição estática de um movimento tridimensional não dá conta da complexidade de elementos envolvidos no manuseio.
+            </p>
+            <img src={Imagem3} alt="" />
+            <p>
+                Com isso em mente, o <span className="kellerTest">T.K.</span> une características de outras ferramentas de pesquisa, como análise de protocolo, teste AB e grupo focal, além de perpassar diversos conceitos de Design, Usabilidade e Ergonomia. Assim, são abordadas diversas questões essenciais ao uso, sem se limitar apenas a elementos mecânicos. 
+            </p>
+            <img src={Imagem4} alt="" />
+            <p>
+                Isso não significa que o <span className="kellerTest">T.K.</span> seja exclusivo para designers. Desde sua concepção inicial, o objetivo era justamente que a ferramenta permitisse que qualquer um (interessado em estudar ou projetar um objeto) pudesse utilizá-la, trocando ideias com outras pessoas, com experiências distintas.
+            </p>
+            <img src={Imagem6} alt="" />
+            <p>
+                Um dos pontos-chave do <span className="kellerTest">T.K.</span> é o fato da análise ser sempre construída através do diálogo entre três participantes. O resultado <span style={{fontWeight: 600}}>não</span> é um meio termo entre perspectivas. Pelo contrário, a dinâmica guia os participantes a sentirem, refletirem e discutirem sobre o objeto analisado.
+            </p>
+            <p>
+                O Teste de Keller (T.K.) funciona com três participantes, que assumem cada um uma função, ou papel. São eles:
+            </p>
+
             <div className="roleContainer">
                 <div className="role">
                     <div className="icon">
@@ -57,25 +80,7 @@ const KellerTest = () => {
                     </div>
                 </div>
             </div>
-            <p>
-                Se você deseja que o seu produto seja eficiente, agradável de usar e inclusivo, o <span className="kellerTest">T.K.</span> é a ferramenta que você precisa conhecer! Ele não requer conhecimentos de Design para ser utilizado e pode ser aplicado a uma ampla gama de produtos.
-            </p>
-            <img src={Imagem7} alt="" />
-            <p>
-                Ao usarmos um produto com as mãos, nos atravessa um grande volume de pensamentos, sentimentos, lembranças e processos cognitivos muito internalizados, o que dificulta tanto a comunicação quanto a organização desses componentes da percepção. A descrição estática de um movimento tridimensional não dá conta da complexidade de elementos envolvidos no manuseio.
-            </p>
-            <img src={Imagem3} alt="" />
-            <p>
-                Com isso em mente, o <span className="kellerTest">T.K.</span> une características de outras ferramentas de pesquisa, como análise de protocolo, teste AB e grupo focal, além de perpassar diversos conceitos de Design, Usabilidade e Ergonomia. Assim, são abordadas diversas questões essenciais ao uso, sem se limitar apenas a elementos mecânicos. 
-            </p>
-            <img src={Imagem4} alt="" />
-            <p>
-                Isso não significa que o <span className="kellerTest">T.K.</span> seja exclusivo para designers. Desde sua concepção inicial, o objetivo era justamente que a ferramenta permitisse que qualquer um (interessado em estudar ou projetar um objeto) pudesse utilizá-la, trocando ideias com outras pessoas, com experiências distintas.
-            </p>
-            <img src={Imagem6} alt="" />
-            <p>
-                Um dos pontos-chave do <span className="kellerTest">T.K.</span> é o fato da análise ser sempre construída através do diálogo entre três participantes. O resultado <span style={{fontWeight: 600}}>não</span> é um meio termo entre perspectivas. Pelo contrário, a dinâmica guia os participantes a sentirem, refletirem e discutirem sobre o objeto analisado.
-            </p>
+            
             <div className="buttonContainer">
                 <div className="button" onClick={() => navigate("/")}>
                     <div className="text">
