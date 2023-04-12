@@ -1,2 +1,59 @@
 @import '../../variables';
 
+.roleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+
+    @media screen and (max-width: $mobile) {
+        flex-direction: column;
+    }
+
+    >.role {
+        display: flex;
+        flex-direction: column;
+
+        border: 2px solid $primary;
+        border-radius: 12px;
+
+        box-sizing: border-box;
+        padding: 12px 12px;
+
+        width: 300px;
+        height: 300px;
+
+        @media screen and (max-width: $mobile) {
+            width: 100%;
+            height: auto;
+            margin-bottom: 12px;
+        }
+
+        >.icon {
+            display: flex;
+            align-self: center;
+            width: fit-content;
+            padding: 8px;
+
+            background-color: $primary;
+            border-radius: 100%;
+
+            margin-bottom: 16px;
+        }
+
+        >.title {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        >.subText {
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+    }
+}
