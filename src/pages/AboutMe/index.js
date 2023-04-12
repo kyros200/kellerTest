@@ -1,7 +1,7 @@
 import Linkedin from './images/linkedin.svg'
 import Whatsapp from './images/whatsapp.svg'
 import Gmail from './images/gmail.svg'
-import Lattes from './images/lattes.png'
+import Lattes from './images/lattes.svg'
 
 import Lu from './images/lu.jpg'
 
