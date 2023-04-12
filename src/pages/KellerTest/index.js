@@ -19,11 +19,8 @@ const KellerTest = () => {
             <div className="aboutMeTitle">
                 <img src={Logo} alt={"Teste de Keller"} className="logo"/>
             </div>
-            {/* <p style={{textAlign: "center"}}>
-                O Teste de Keller (<span className="kellerTest">T.K.</span>) trabalha com três elementos centrais: 
-            </p> */}
             <p>
-                Se você deseja que o seu produto seja eficiente, agradável de usar e inclusivo, o <span className="kellerTest">T.K.</span> é a ferramenta que você precisa conhecer! Ele não requer conhecimentos de Design para ser utilizado e pode ser aplicado a uma ampla gama de produtos.
+                Se você deseja que o seu produto seja eficiente, agradável de usar e inclusivo, o Teste de Keller (<span className="kellerTest">T.K.</span>) é a ferramenta que você precisa conhecer! Ele não requer conhecimentos de Design para ser utilizado e pode ser aplicado a uma ampla gama de produtos.
             </p>
             <img src={Imagem7} alt="" />
             <p>
@@ -42,7 +39,7 @@ const KellerTest = () => {
                 Um dos pontos-chave do <span className="kellerTest">T.K.</span> é o fato da análise ser sempre construída através do diálogo entre três participantes. O resultado <span style={{fontWeight: 600}}>não</span> é um meio termo entre perspectivas. Pelo contrário, a dinâmica guia os participantes a sentirem, refletirem e discutirem sobre o objeto analisado.
             </p>
             <p>
-                O Teste de Keller (T.K.) funciona com três participantes, que assumem cada um uma função, ou papel. São eles:
+                O <span className="kellerTest">T.K.</span> funciona com três participantes, que assumem cada um uma função, ou papel. São eles:
             </p>
 
             <div className="roleContainer">
