@@ -1,6 +1,7 @@
 import Linkedin from './images/linkedin.svg'
 import Whatsapp from './images/whatsapp.svg'
 import Gmail from './images/gmail.svg'
+import Lattes from './images/lattes.png'
 
 import Lu from './images/lu.jpg'
 
@@ -27,6 +28,9 @@ const AboutMe = () => {
                     </a>
                     <a href="https://www.linkedin.com/in/luciana-keller-910abb71/" target="_blank" rel="noreferrer" >
                         <img src={Linkedin} alt="Linkedin" />
+                    </a>
+                    <a href="http://lattes.cnpq.br/7812208570148467" target="_blank" rel="noreferrer" >
+                        <img src={Lattes} alt="Lattes" />
                     </a>
                 </div>
                 <div className="buttonContainer">
