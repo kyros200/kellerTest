@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Landing from './pages/Landing';
+import AboutMe from './pages/AboutMe';
+import KellerTest from './pages/KellerTest';
 import PageLayout from './layouts/PageLayout';
 import {
   BrowserRouter,
@@ -17,6 +19,8 @@ ReactDOM.render(
         <Routes>
           <Route path="/" element={<PageLayout />}>
             <Route index element={<Landing />} />
+            <Route path="sobreMim" element={<AboutMe />} />
+            <Route path="comoFunciona" element={<KellerTest />} />
           </Route>
         </Routes>
       </BrowserRouter>

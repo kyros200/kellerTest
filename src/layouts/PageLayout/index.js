@@ -1,8 +1,13 @@
 import {Outlet} from 'react-router-dom'
+import './PageLayout.scss'
 
 const PageLayout = () => {
     return (
-        <Outlet />
+        <div className='layoutContainer'>
+            <div className='layoutContent'>
+                <Outlet />
+            </div>
+        </div>
     )
 
 }
